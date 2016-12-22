@@ -1,23 +1,14 @@
----
-layout: default
----
-
-<div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>My First Webpage</title>
+	<link href="/MainStyle.css" type="text/css" rel="stylesheet">
+	<meta charset="utf-8" />
+	<link href="https://fonts.googleapis.com/css?family=Roboto:100" type="text/css" rel="stylesheet"> <!--Link zur Schriftart Roboto, falls der Benutzer diesen nicht installiert hat-->
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" type="text/css" rel="stylesheet"> <!--Link zur Schriftart Playfair Display, falls...-->
+</head>
+<body>
+<h1>Hier ist meine erste Überschrift</h1>
+	<p>Das hier ist mein erster Paragraph, den ich schreibe</p>
+</body>
+</html>

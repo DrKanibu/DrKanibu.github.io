@@ -1,0 +1,40 @@
+﻿* {
+    padding: 0;
+    margin: 0;  /*Um die Default Werte von Beginn an zu überschreiben - sauberer*/
+    box-sizing: border-box; /*In this box model, the height and width of the box will remain fixed. The border thickness and padding will be included inside of the box, which means the overall dimensions of the box do not change.*/
+
+}
+
+h1 {
+  color: #000;
+  font-family: Playfair Display, serif;
+  font-size: 32px;
+  padding-top: 100px;
+  text-align: left;
+  width: 60%;
+  /*z-index:1; Der Index ist für Ebenen zuständig*/
+}
+
+h2 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  font-family: Roboto, Garamond, serif;
+  font-weight: 100;
+  word-spacing: 0.05em;
+  letter-spacing: 0.02em;
+  font-size: 22px;
+  line-height: 24px;
+  padding-bottom: 30px;
+  text-align: left;
+  width: 70%;
+}
+
+p {
+  color: black;
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.7em;
+  text-align: left;
+  width: 100%;
+}
